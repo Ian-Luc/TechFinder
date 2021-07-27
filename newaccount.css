@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Roboto:wght@300&display=swap');
+
+body{
+    align-content: center;
+    background-image: url("./../images/brainderdain.png");
+    background-size: 100%;
+}
+
+.pageopener, .pagebody{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(190, 190, 190, 65%);
+    border-radius: 15px;
+    font-family: "Lexend";
+}
+
+.pageopener{
+    width: 30%;
+}
+
+.pagebody{
+    width: 10%;
+}
+
+ .pageopener h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lexend";
+}
+
+input{
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pagebody{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#newaccount div{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+input{
+    width: 95%;
+    background-color: rgb(190, 190, 190); 
+    height: 25px;
+}
+
+#pressme{
+    width: 98%;
+    background-color: rgb(190, 120, 120);
+}
