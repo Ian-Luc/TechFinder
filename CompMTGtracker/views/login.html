@@ -97,12 +97,13 @@
                 <div class="topitem">
                     User Login
                 </div>
-                <form>
+                <script src="./../scripts/accountValidate.js"></script>
+                <form onsubmit="return(checkLogin())" name="accountvalidate" id="accountvalidate" class="accountvalidate">
                     <div>
-                        <input type="text" placeholder="Username" onfocus="inputFocus(this)" onblur="inputBlur(this)" style="background-color: rgb(190, 190, 190); height: 25px">
+                        <input type="text" id="username" placeholder="Username" style="background-color: rgb(190, 190, 190); height: 25px">
                     </div>
                     <div>
-                        <input type="email" placeholder="Password" style="background-color: rgb(190, 190, 190); height: 25px">
+                        <input type="text" id="password" placeholder="Password" style="background-color: rgb(190, 190, 190); height: 25px">
                     </div>
                     <div>
                         <input type="submit" value="LOGIN" style="height: 30px; width: 150px; background-color: rgb(160, 50, 50);">
@@ -111,7 +112,7 @@
                         <a href="./login.html">Forgot Password?</a>
                     </div>
                     <div class="newaccount">
-                        <a href="./login.html">New? Create Account</a>
+                        <a href="./newaccount.html">New? Create Account</a>
                     </div>
                 </form>
             </nav>
